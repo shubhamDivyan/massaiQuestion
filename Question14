@@ -1,0 +1,20 @@
+let arr=["T1","T2","T3","T4","T5"];
+
+console.log(arr)
+//1 Remove the first tast from the list
+arr.shift();
+console.log(arr)
+
+//2 Add two new high-priority tasks to the beginning of the list
+
+arr.unshift("T6","T7")
+console.log(arr)
+//3. Replace the last task in the list with a new task
+arr.pop();
+console.log(arr)
+
+arr.push("T10")
+console.log(arr)
+
+//4. Log the update task list after all operations
+console.log("All Task are",arr)
